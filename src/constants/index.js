@@ -39,6 +39,25 @@ import {
       title: "Contact",
     },
   ];
+
+  export const navLinks2 = [
+    {
+      id: "",
+      title: "Home",
+    },
+    {
+      id: "about",
+      title: "About",
+    },
+    {
+      id: "work",
+      title: "Work",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+  ];
   
   const services = [
     {
