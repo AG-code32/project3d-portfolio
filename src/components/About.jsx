@@ -37,9 +37,9 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+    <div className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
+      <motion.div variants={textVariant()} id="about" >
+        <p className={`${styles.sectionSubText} pt-[100px]`}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
@@ -60,8 +60,9 @@ const About = () => {
         ))}
       </div>
 
-    </>
+    </div>
   )
 }
 
-export default SectionWrapper(About, "about");
+// export default SectionWrapper(About, "about");
+export default About;
